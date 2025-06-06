@@ -226,20 +226,14 @@ submitButton.addEventListener('click', (event) => {
             album: albumName,
             cover_art: songCoverArt,
             duration: songDuration
- 
         }
         ]
     }
     data.playlists.push(newPlaylist);
     displayPlaylists();
- 
     addModal.style.display = 'none';
- 
 });
- 
 function populateModal(playlist) {
- 
- 
     const modal = document.querySelector('.modal-content');
     modal.innerHTML = '';
     const modalHeading = document.createElement("div")
