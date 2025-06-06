@@ -154,4 +154,4 @@ I would have loved to add the clear button for the search features.
 
 ### Shout out
 
-Shoutout to my Cohort TA,Gregg who was always there to sit with me through all my bugs and explain them better and also shoutout to my friends, Mercy and Eniola for their help.
+Shoutout to my Cohort TAs,Gregg and Elikem who were always there to sit with me through all my bugs and explain them better and also shoutout to my friends, Mercy and Eniola for their help.
