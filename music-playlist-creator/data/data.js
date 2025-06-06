@@ -200,7 +200,7 @@ let data = { "playlists": [
       "playlist_name": "Boss Chick Energy",
       "playlist_creator": "Tempo Tactician",
       "playlist_art": "https://picsum.photos/id/449/200",
-      "likeCount": 0,
+      "likeCount": 12,
       "songs": [
         {
           "songID": 20,
@@ -249,7 +249,7 @@ let data = { "playlists": [
       "playlist_name": "Rainy Nights",
       "playlist_creator": "Sonic Sage",
       "playlist_art": "https://picsum.photos/id/115/200",
-      "likeCount": 0,
+      "likeCount": 6,
       "songs": [
         {
           "songID": 25,
