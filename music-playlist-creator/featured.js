@@ -24,9 +24,9 @@ function displayFeaturedHome(playlist){
         <div class="featured-song-info">
             <p>${song.title}</p>
             <p>${song.artist}</p>
-            </div>
+            <span>${song.duration}</span>
         </div>
-        <span>${song.duration}</span>
+        </div>
         `
         featuredSongs.appendChild(featuredSong);
     });
