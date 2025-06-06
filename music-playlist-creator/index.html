@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
     <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/music-playlist-creator/assets/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="heading">
         <h1>&#127925; Welcome to My Music Playlist </h1>
         <p>Come and live in my world of rhymes and sensations</p>
+        <div class="icons">
+            <a href="index.html"><i class="fa fa-home" style="font-size:30px"></i></a>
+            <a href="playlist.html"><i class="fa fa-music" style="font-size:30px"></i></a>
+        </div>
     </header>
-    <main> 
-  <div class="playlist-cards"></div>
-  <div class="modal" id="playlistModal">
-    <div class="modal-content">
-      <img id="modalPlaylistArt" src="" alt="Playlist Art" style="width:100%; border-radius: 8px; margin-bottom: 1rem;">
-      <h2 id="modalPlaylistName"></h2>
-      <p><strong>Created by:</strong> <span id="modalPlaylistAuthor"></span></p>
-      <p><strong>Likes:</strong> <span id="modalPlaylistLikes"></span></p>
-      <span class="close">&times;</span>
-    </div>
-  </div>
-</main>
-
+    <main class = "featured">
+        <div class="featured-home">
+        </div>
+    </main>
     <footer>
         <p>Music is Life, Live in the Life of the Melodies</p>
         <p>@2025 Vanessa</p>
     </footer>
-    <script src="/music-playlist-creator/data/data.js"></script>
-    <script type="module" src="script.js"></script>
+    <script src="./data/data.js"></script>
+    <script src="./featured.js"></script>
+</body>
+</html>
+</footer>
+    <div class="modal-overlay">
+        <div class="modal-content"></div>
+    </div>
+<script src="/music-playlist-creator/data/data.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
