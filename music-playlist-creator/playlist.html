@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Explorer</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+    <link rel="stylesheet" href="playlist.css">
+</head>
+<body>
+    <header>
+        <!-- Your header content here -->
+        <div class="heading">
+            <h1>Music Playlist Explorer</h1>
+            <div class="icons">
+                <a href="index.html"><i class="fa fa-home" style="font-size:30px"></i></a>
+                <a href="playlist.html"><i class="fa fa-music" style="font-size:30px"></i></a>
+                <a href="#add-playlist-form"><i class="fa fa-plus" style="font-size:30px"></i></a>
+            </div>
+        </div>
+        <div class="sort-search">
+            <input class="search-bar" type="text" placeholder="Search by playlist name or creator">
+            <select id="choice">
+                <option value="Sort By"></option>
+                <option value="playlist-name">Playlist Name</option>
+                <option value="likes">Number of Likes</option>
+            </select>
+        </div>
+    </header>
+    <main>
+        <!-- Your main content here -->
+        <div class="playlist-cards">
+        </div>
+    </main>
+    <div id="modal" class="modal-overlay" hidden>
+        <div class="modal-content" >
+        </div>
+    </div>
+    <div id="add-playlist-form" class="modal-overlay" hidden>
+        <div class="modal-content">
+            <div class="m">
+                <div>
+                    <input type="text" id="playlist-name" name="playlist-name" placeholder="Playlist Name"><br>
+                    <input type="text" id="playlist-creator" name="playlist-creator" placeholder="Playlist Creator"><br>
+                    <input type="url" id="playlist-cover-art" name="playlist-cover-art" placeholder="Playlist Cover Art Link"><br><br>
+                </div>
+                <span class="close">&times;</span>
+            </div>
+            <h3>Song Details:</h3>
+            <div id="songs-container">
+                <div class="song">
+                    <input type="text" id="song-name" name="song-name" placeholder="Song Name"><br>
+                    <input type="text" id="song-artist" name="song-artist" placeholder="Artist Name"><br>
+                    <input type="text" id="album-name" name="album-name" placeholder="Album Name"><br>
+                    <input type="url" id="song-cover-art" name="song-cover-art" placeholder="Song Cover Art Link"><br>
+                    <input type="text" id="song-duration" name="song-duration" placeholder="Song Duration"><br>
+                </div>
+            </div>
+            <input type="button" id="add-song-button" value="Add Song">
+            <input type="submit" id="submit-button" value="Submit">
+        </div>
+    </div>
+    <div id="edit-playlist-form" class="modal-overlay" hidden>
+        <div id="edit-content" class="modal-content">
+        </div>
+    </div>
+    <footer>
+        <!-- Your footer content here -->
+        <div class="foot">
+            <div class="footer-container">
+                <p> ©2025 Vanessa Ezeh</p>
+            </div>
+ 
+ 
+        </div>
+ 
+    </footer>
+    <script src="./data/data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+ 
