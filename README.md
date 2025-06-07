@@ -129,10 +129,7 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](htt
   - [✅] Selecting a sort option should result in a reordering based on the selected sort while maintaining a grid view.
 
 ### Walkthrough Video
-
-`TODO://` Add the embedded URL code to your animated app walkthrough below, `ADD_EMBEDDED_CODE_HERE`. Make sure the video actually renders and is playable when viewing this README. Ensure your walkthrough showcases the presence and/or functionality of all features you implemented above (check them off as you film!). Pay attention to any **VIDEO WALKTHROUGH SPECIAL INSTRUCTIONS** checkboxes listed above to ensure graders see the full functionality of your website! (🚫 Remove this paragraph after adding walkthrough video)
-
-`ADD_EMBEDDED_CODE_HERE`
+(https://www.loom.com/share/be7428e7c5ff4e72994c3836a76d5d60?sid=3f277dbc-7254-4937-be2f-b48f8a197554)
 
 ### Reflection
 
