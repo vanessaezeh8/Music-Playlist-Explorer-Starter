@@ -129,7 +129,8 @@ Deployed Application (**required**): [Music Playlist Explorer Deployed Site](htt
   - [✅] Selecting a sort option should result in a reordering based on the selected sort while maintaining a grid view.
 
 ### Walkthrough Video
-(https://www.loom.com/share/be7428e7c5ff4e72994c3836a76d5d60?sid=3f277dbc-7254-4937-be2f-b48f8a197554)
+(My Music Playlist Explorer - Watch Video
+)
 
 ### Reflection
 
