@@ -4,7 +4,7 @@ Submitted by: **Vanessa Ezeh**
 
 Estimated time spent: **40** hours spent in total
 
-Deployed Application (**required**): [Music Playlist Explorer Deployed Site]([ADD_LINK_HERE](https://music-playlist-explorer-starter-nfb8.onrender.com))
+Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://music-playlist-explorer-starter-nfb8.onrender.com)
 
 ### Application Features
 
